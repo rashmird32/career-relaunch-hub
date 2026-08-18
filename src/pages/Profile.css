@@ -1,0 +1,75 @@
+.profile-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.profile-header {
+  margin-bottom: 32px;
+}
+
+.profile-header h1 {
+  margin-bottom: 8px;
+}
+
+.profile-header p {
+  color: #666;
+}
+
+.profile-section {
+  background: #fff;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.profile-section h2 {
+  margin-bottom: 20px;
+}
+
+.profile-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.profile-field label {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.profile-field input,
+.profile-field textarea,
+.profile-field select {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.profile-field textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.save-profile-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.error-message {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #d32f2f;
+}
+
+.success-message {
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 500;
+}

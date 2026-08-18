@@ -109,3 +109,19 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+
+nav {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
