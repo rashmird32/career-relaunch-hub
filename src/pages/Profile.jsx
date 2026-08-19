@@ -1,22 +1,9 @@
 import { useState } from "react";
+import { useProfile } from "../context/ProfileContext";
 import "./Profile.css";
 
 function Profile() {
-  const [profile, setProfile] = useState({
-  fullName: "",
-  email: "",
-  location: "",
-  previousJobTitle: "",
-  previousExperience: "",
-  careerGap: "",
-  gapReason: "",
-  technicalSkills: "",
-  otherSkills: "",
-  targetRole: "",
-  workType: "",
-  degree: "",
-  graduationYear: "",
-});
+  const { profile, setProfile } = useProfile();
 
   const [errors, setErrors] = useState({});
 
